@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F43545F419C343A000BFB665 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43545F319C343A000BFB665 /* main.cpp */; };
 		F43545F619C343A000BFB665 /* LISTAS_ENLAZADAS.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F43545F519C343A000BFB665 /* LISTAS_ENLAZADAS.1 */; };
+		F43545FE19C3547000BFB665 /* listas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F43545FD19C3547000BFB665 /* listas.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		F43545F019C343A000BFB665 /* LISTAS_ENLAZADAS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LISTAS_ENLAZADAS; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43545F319C343A000BFB665 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F43545F519C343A000BFB665 /* LISTAS_ENLAZADAS.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LISTAS_ENLAZADAS.1; sourceTree = "<group>"; };
+		F43545FC19C343F800BFB665 /* listas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listas.h; sourceTree = "<group>"; };
+		F43545FD19C3547000BFB665 /* listas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = listas.cpp; sourceTree = "<group>"; };
+		F43545FF19C3553E00BFB665 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				F43545F319C343A000BFB665 /* main.cpp */,
+				F43545FC19C343F800BFB665 /* listas.h */,
+				F43545FD19C3547000BFB665 /* listas.cpp */,
+				F43545FF19C3553E00BFB665 /* header.h */,
 				F43545F519C343A000BFB665 /* LISTAS_ENLAZADAS.1 */,
 			);
 			path = LISTAS_ENLAZADAS;
@@ -118,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43545F419C343A000BFB665 /* main.cpp in Sources */,
+				F43545FE19C3547000BFB665 /* listas.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
